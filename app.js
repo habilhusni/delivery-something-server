@@ -5,7 +5,7 @@ const bodyParser  = require('body-parser');
 const logger      = require('morgan');
 require('dotenv').config();
 const mongoose    = require('mongoose');
-mongoose.connect(`mongodb://${process.env.db_user}:${process.env.db_pass}@ds119772.mlab.com:19772/deliverysomething`);
+mongoose.connect(`mongodb://husnihabil:1234@ds119772.mlab.com:19772/deliverysomething`);
 const app         = express();
 
 app.use(cors());
