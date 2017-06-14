@@ -4,8 +4,8 @@ var Schema      = mongoose.Schema;
 
 var dataSchema  = new Schema({
   place     : String,
-  longitude : String,
-  latitude  : String,
+  longitude : Number,
+  latitude  : Number,
 });
 
 const Data      = mongoose.model('Data', dataSchema);
