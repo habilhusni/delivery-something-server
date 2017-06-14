@@ -49,7 +49,7 @@ let updateData = (req, res) => {
 		if(err) {
 			res.send(err.message);
 		} else {
-			res.send('Succeed update');
+			res.send(data);
 		}
 	})
 };
