@@ -1,6 +1,4 @@
 'use strict'
-const express = require('express');
-const router  = express.Router();
 const Data    = require('../models/data.js');
 
 let getData   = (req, res) => {
